@@ -18,7 +18,8 @@ class PXQ(Monitor):
             "seat_info": list(),
             "session_info": list(),
             "show_id": perform.get('show_id'),
-            "show_name": perform.get('show_name')
+            "show_name": perform.get('show_name'),
+            "session_id": "6790a3237a50bc000134d098"
         }
         logging.info(f"票星球 {perform.get('show_name')} 开始加载")
         self.get_show_infos()
@@ -26,10 +27,13 @@ class PXQ(Monitor):
 
     def get_show_infos(self):
         show_id = self.show_info.get('show_id')
+        match_session_id = self.show_info.get('session_id')
         response = self.request(f"https://m.piaoxingqiu.com/cyy_gatewayapi/show/pub/v3/show/{show_id}/sessions_static_data")
         show_info = json.loads(response.text)
         for session in show_info.get("data").get("sessionVOs"):
             session_id = session.get("bizShowSessionId")
+            if session_id != match_session_id:
+                continue
             session_name = session.get("sessionName")
             self.show_info["session_info"].append({
                 "session_id": session_id,
