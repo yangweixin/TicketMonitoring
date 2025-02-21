@@ -1,25 +1,20 @@
 {
   "proxy": null,
   "token": {
-    "my": "登陆小程序后抓包获取token"
+    "my": "eyJ0eXAiOiJKV1QiLCJjdHkiOiJKV1QiLCJ6aXAiOiJERUYiLCJhbGciOiJSUzUxMiJ9.eNp8UUuPgjAQ_i9z5tBCKeANWY0kGA0rB0-k1CGSIJBSNusa__sWMC6nPc4332MeD2jFoK9xU7awaoa6tmDoUc31A4rqJ2ovCCvY7pJ8Dxb0Q7F-g9zmnvAJ4sWmvstsz-clZQEzPKNM23okrbPzJjXITctstL4YzBVUMsYlkaVdeI5TlJwyWYhZ-KYZ95Ki4xCOJWGEEMoD26UUnhPv0KESuv2XS4ylvndmEGpGQCWvotHLdb9Q9VXbwMqxoBNKV3qqgBshfneVwlN1G-UeIzRwaRAw4lsgFQq9bBHfe7X6e6_x9jpRFMb5Oc6j5JB95NMp8mOWRrvwc5Mfk_C0PaT7OWkZYfzNnA3W42p_b2nEGDfWz18AAAD__w.FL8NGNve93x6NNQG4AEUPZrWFbZkO92A61ON4cxp7x1GnI7WYjDKD6BFNqjhCs7lcnhEV0W0PZ_C5_V6dTXOwHpbJHM7kkHLaNuV8oRJyg1gyHjK_pzp1Vnw9MXmTLR5GrbFIR8Uc7uIQmGyu9JlsO4OYfqnagHi_RnouU60GRY"
   },
   "monitor_list": [
     {
-      "show_id": "374212",
-      "show_name": "banG",
-      "platform": 1,
-      "deadline": "2025-02-15 00:00:00"
-    },
-    {
-      "show_id": "379615",
-      "show_name": "测试",
-      "platform": 1,
-      "deadline": "2025-02-15 00:00:00"
+      "show_id": "677d2ef18a9d030001f6884f",
+      "session_id": "6790a3237a50bc000134d098",
+      "show_name": "亚青u20",
+      "platform": 3,
+      "deadline": "2025-02-22 12:00:00"
     }
   ],
   "notice":{
-    "email": "xx@qq.com",
+    "email": "1979583413@qq.com",
     "interval_sec": 300,
-    "SMTP": "hahaha"
+    "SMTP": "woYAObiYEle0"
   }
 }
