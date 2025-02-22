@@ -19,7 +19,7 @@ class PXQ(Monitor):
             "session_info": list(),
             "show_id": perform.get('show_id'),
             "show_name": perform.get('show_name'),
-            "session_id": "6790a3237a50bc000134d098"
+            "session_id": perform.get('session_id')
         }
         logging.info(f"票星球 {perform.get('show_name')} 开始加载")
         self.get_show_infos()
